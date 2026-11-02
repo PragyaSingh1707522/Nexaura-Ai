@@ -1,0 +1,3 @@
+-r requirements.txt
+# Optional, large CPU/GPU stack. Base app stays runnable without downloading models.
+sentence-transformers>=3.3
