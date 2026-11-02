@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RegulaLens reviewed RAG evaluation example",
+  "type": "object",
+  "required": ["question", "relevant_chunk_ids"],
+  "properties": {
+    "question": {"type": "string", "minLength": 3},
+    "relevant_chunk_ids": {"type": "array", "items": {"type": "integer"}},
+    "document_ids": {"type": "array", "items": {"type": "integer"}},
+    "expected_answer": {"type": "string"},
+    "expected_evidence": {"type": "string"},
+    "supporting_pages": {"type": "array", "items": {"type": "integer"}}
+  },
+  "additionalProperties": false
+}
