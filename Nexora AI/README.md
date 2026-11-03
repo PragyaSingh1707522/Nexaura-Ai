@@ -1,4 +1,4 @@
-# RegulaLens AI
+# Nexaura AI
 
 RegulaLens is a local-first regulatory intelligence and vendor risk workspace. It includes a FastAPI service, React/TypeScript dashboard, PostgreSQL and Qdrant Compose services, document ingestion, hybrid retrieval, grounded answering, review records, and transparent vendor risk scoring.
 
